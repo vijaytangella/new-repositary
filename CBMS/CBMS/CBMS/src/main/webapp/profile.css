@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	background: url(./Images/frostbg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	height: 10px;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.container {
+	/* min-height: 500px;
+  max-height: auto;
+  min-width: 500px;
+  max-width: auto; */
+	height: 500px;
+	width: 500px;
+	margin: 50px auto;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.glass {
+	background: linear-gradient(135deg,
+			rgba(255, 255, 255, 0.1),
+			rgba(255, 255, 255, 0));
+	backdrop-filter: blur(5px);
+	border-radius: 10px;
+	/* border: 1px solid black; */
+	box-shadow: 0 8px 32px 0 black;
+}
+
+td {
+	color: black;
+	font-size: larger;
+	font-weight: 700;
+	padding: 10px 10px;
+}
+
+input,
+select {
+	height: 25px;
+	width: 200px;
+}
+
+option {
+	font-size: larger;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	padding: 10px;
+}
+
+button {
+	font-size: 15px;
+	font-weight: bolder;
+	padding: 4px;
+	border-radius: 8px;
+}
